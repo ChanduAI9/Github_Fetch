@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#repositories {
+    margin-top: 20px;
+}
+
+#githubDetails {
+    margin-bottom: 20px;
+}
+
+#repoTabs {
+    margin-top: 20px;
+}
+
+#repoTabs a {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #007bff; 
+    border: 1px solid #007bff;
+}
+
+#repoTabs a.active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.card-title a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
